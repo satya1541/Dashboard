@@ -26,7 +26,7 @@ ChartJS.register(
 const MQTT_BROKER = "ws://46.28.44.138:9001";
 const TOPIC_1 = "your/topic/1";  // Topic for first device
 const TOPIC_2 = "your/topic/2";  // Topic for second device
-const THRESHOLD = 150;
+const THRESHOLD = 2800;
 const DATA_POINTS = 30;
 
 export default function MQTTComponent() {
